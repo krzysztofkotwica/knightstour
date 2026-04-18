@@ -2,13 +2,13 @@
 Benchmarkowanie agentów AI w oparciu o stary kod PHP.
 
 # Stan początkowy, ustalenia
-Skopiowałem [repozytorium](https://github.com/krzysztofkotwica/knightstour-old) do dwóch katalogów w tym samym systemie (Linux ZorinOS 18.1) na tej samej maszynie.
-Zaopatrzyłem się w pakiety Google AI Pro oraz Claude Invidual Pro.
-Zainstalowałem agentów [Gemini-CLI](https://geminicli.com) i [Claude Code](https://claude.com/product/claude-code) oraz zalogowałem się swoimi kontami.
-Ręcznie nie wykonywałem żadnych zmian w kodzie/dockerze.
-Czasem popracowałem trochę bardziej szczegółowo z agentem, jeśli widziałem problem.
-Kontrolowałem oba agenty równolegle, w tym samym czasie.
-Całą komunikację prowadziłem w języku polskim.
+- Skopiowałem [repozytorium](https://github.com/krzysztofkotwica/knightstour-old) do dwóch katalogów w tym samym systemie (Linux ZorinOS 18.1) na tej samej maszynie.
+- Zaopatrzyłem się w pakiety Google AI Pro oraz Claude Invidual Pro.
+- Zainstalowałem agentów [Gemini-CLI](https://geminicli.com) i [Claude Code](https://claude.com/product/claude-code) oraz zalogowałem się swoimi kontami.
+- Ręcznie nie wykonywałem żadnych zmian w kodzie/dockerze.
+- Czasem popracowałem trochę bardziej szczegółowo z agentem, jeśli widziałem problem.
+- Kontrolowałem oba agenty równolegle, w tym samym czasie.
+- Całą komunikację prowadziłem w języku polskim.
 
 # Wywołane prompty
 1. Twoim zadaniem jest przebudowanie aplikacji, żeby jak najszybciej rozwiązywała problem Knight's tour dla pola szachownicy 8x8. Do uruchomienia korzystaj z docker compose. Stwórz jak najwydajniejszy algorytm.
@@ -20,8 +20,8 @@ Całą komunikację prowadziłem w języku polskim.
 7. (wywołanie komendy /code-review lub /review) Wprowadź poprawki otrzymane w code review i sprawdź, czy wszystko działa poprawnie.
 
 # Wyniki działania zaimplementowanego algorytmu
-Wynik obliczeń  16x16: Claude 3779.982us vs Gemini 90.62us
-Wynik obliczeń 128x128: Claude 21152.24us vs Gemini 5242.64 us
+- Wynik obliczeń  16x16: Claude 3779.982us vs Gemini 90.62us
+- Wynik obliczeń 128x128: Claude 21152.24us vs Gemini 5242.64 us
 
 # Wnioski
 ## Claude - [repozytorium](https://github.com/krzysztofkotwica/knightstour-claude): 
